@@ -1,0 +1,234 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fallback to sans-serif for better readability */
+    background-color: #f4f4f4; /* Soft page bg */
+    padding: 20px;
+}
+
+/* Enhanced Main Grid */
+.main {
+    padding: 100px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.main-left {
+    padding: 20px;
+    background-color: #f8f9fa; /*Background for the left side*/
+}
+
+.main-left_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    font-style: normal;
+    margin: 40px 0;  
+}
+
+.contacts_img {
+    width: 280px;
+    height: 280px; 
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Name and Job Title Styles */
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+.job-title {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contact Links Styling */
+.contacts a {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.contacts a:hover {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+}
+
+.main-left_contacts address {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.main-left_skills {
+    margin: 40px 20px;
+    font-size: 20px;
+}
+
+.main-left_skills h2, .main-left_skills h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.main-left_skills ul {
+    padding: 0 0 20px 20px; /* Indent bullets */
+    list-style-type: disc; /* Simple bullets */
+    color: #555;
+}
+
+.main-left_skills li {
+    margin-bottom: 5px;
+}
+
+/* Right Side */
+.main-right {
+    padding: 40px;
+}
+
+.main-right h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db; /* Subtle underline */
+    position: relative;
+}
+
+/* Remove underline for specific heading */
+.main-right h2.no-underline {
+    border-bottom: none;
+}
+
+/* About Section */
+.main-right_about .about {
+    color: #444;
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: justify;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+/* Experience Section */
+.main-right_experiences {
+    margin-bottom: 40px;
+}
+
+.main-right_experience {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.experience-title {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.company {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.experience-text {
+    color: #555;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.experience-text li {
+    margin-bottom: 8px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    
+    .main-left {
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+        order: 2; /* Skills after content on mobile */
+    }
+    
+    .main-right {
+        padding: 20px;
+    }
+    
+    .contacts_img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .main-left_skills {
+        margin: 20px;
+    }
+}
+
+size: 21px;
+}
+
+.main-right {
+    padding: 20px 40px;
+}
+
+.mian-rigt_about {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
