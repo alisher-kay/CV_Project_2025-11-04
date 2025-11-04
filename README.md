@@ -88,29 +88,7 @@ The CV is designed to be fully responsive with breakpoints for:
 - Tablet (768px - 1023px)
 - Mobile (767px and below)
 
-## 🌐 Deployment
 
-### GitHub Pages
-This project can be easily deployed using GitHub Pages:
-
-1. Go to your repository settings
-2. Scroll to "Pages" section
-3. Select "Deploy from a branch"
-4. Choose "main" branch
-5. Your CV will be available at: `https://yourusername.github.io/repository-name/`
-
-### Alternative Hosting
-- **Netlify**: Drag and drop the project folder
-- **Vercel**: Connect your GitHub repository
-- **Any web server**: Upload files to your hosting provider
-
-## 👥 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add some improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
 
 ## 📄 License
 
